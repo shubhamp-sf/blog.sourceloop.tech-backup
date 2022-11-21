@@ -53,7 +53,9 @@ export async function main(options: ApplicationConfig = {}) {
 }
 ```
 
-All we're doing in the above snippet is preventing the default http server from being started and starting the server using spdy with loopback's request handler `app.requestHandler` that will be used for all incoming request.
+All we're doing in the above code is, preventing the default http server from being started and starting the server using spdy with loopback's request handler `app.requestHandler` that will be used for all incoming request.
+
+Check out this [pastebin](https://pastebin.com/raw/F5gD1aF2) containing entire `index.ts` after the changes.
 
 To generate certificate and keys for localhost use:
 ```sh
