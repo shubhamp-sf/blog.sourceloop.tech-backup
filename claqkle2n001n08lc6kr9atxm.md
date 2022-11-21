@@ -6,13 +6,13 @@ In this post, I'll be showing how you can utilize `spdy` npm package to run [loo
 
 Here's what you have to do in your existing app:
 
-### Step1: Install [spdy](https://www.npmjs.com/package/spdy)
+### Step 1: Install [spdy](https://www.npmjs.com/package/spdy)
 
 ```sh
 npm i spdy
 ```
 
-### Step2: Configure `index.ts`
+### Step 2: Configure `index.ts`
 
 Change your main function in `src/index.ts` with this:
 
